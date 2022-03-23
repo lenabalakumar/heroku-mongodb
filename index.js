@@ -33,3 +33,7 @@ app.get("/add-blog", (req, res) => {
 app.get("/hello", (req, res) => {
   res.send("Hello from /hello");
 });
+
+app.get("/", (req, res) => {
+  res.json("Welcome");
+});
